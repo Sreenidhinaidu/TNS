@@ -1,4 +1,4 @@
-package com.tns.day14;
+package com.tns.day13;
 public class UsingRunnable implements Runnable {
 		Thread thread;
 		int high, low;
