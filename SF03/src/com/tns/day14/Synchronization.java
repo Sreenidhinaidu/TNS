@@ -1,4 +1,4 @@
-package com.tns.day13;
+package com.tns.day14;
 
 //Synchronization is used for thread safe
 //it allows only one thread at a time
