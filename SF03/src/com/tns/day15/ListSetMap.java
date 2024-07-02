@@ -22,6 +22,10 @@ public class ListSetMap {
 	 QUEUE - 
 	 >collection of multiple elements
 	 >fifo
+	 
+	 
+	 #SET -
+	 >it doesnot allow us to duplicate the elements
 	 */
 
 }
