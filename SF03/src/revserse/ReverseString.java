@@ -19,3 +19,11 @@ public class ReverseString {
     }
 
 }
+/*
+> Input String: The string to be reversed is stored in the variable input.
+> Char Array: A character array reversed is created to hold the reversed string.
+> For Loop: The loop runs from the start to the end of the input string:
+i < input.length() ensures the loop runs for each character in the input string.
+> reversed[i] = input.charAt(input.length() - 1 - i) assigns the character from the end of the input string to the beginning of the reversed array.
+> Convert and Print: The reversed char array is converted back to a string and printed.
+*/

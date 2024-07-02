@@ -20,3 +20,12 @@ public class ReverseNumber {
     }
 
 }
+/*
+> Input Number: The number to be reversed is stored in the variable number.
+> Reversed Number Initialization: The variable reversed is initialized to 0 to store the reversed number.
+> While Loop: The loop runs as long as number is not equal to 0:
+number % 10 gets the last digit of the number.
+> reversed = reversed * 10 + digit appends the last digit to the reversed number.
+> number = number / 10 removes the last digit from the number.
+>Print Reversed Number: Finally, the reversed number is printed.
+*/
