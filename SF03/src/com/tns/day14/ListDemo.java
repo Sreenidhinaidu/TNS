@@ -1,6 +1,6 @@
 package com.tns.day14;
 
-/*collection
+/*collection-utility of classes
 -->arraylist
 >in arraylist retrive/searching is best one.
 >in arraylist the deletion and insertion is worst if we do the operation one index value after all the index needs to move forward  or backward)
@@ -10,7 +10,13 @@ package com.tns.day14;
 >it is not a thread safe
 
 -->linkedlist
->in array
+>in arraylist retrive/searching is worst one
+>in arraylist the deletion and insertion is best
+>it doesnot makes performance issue
+
+--->vector
+>synchronize
+>it is a thread s safe*
  */
 import java.util.ArrayList;
 import java.util.List;
