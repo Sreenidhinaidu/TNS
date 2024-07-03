@@ -3,15 +3,15 @@ package revserse;
 public class ReverseString {
 	public static void main(String[] args) {
         // Input string
-        String input = "Sreenihdi";
+        String str = "Sreenihdi";
         
         // Create an empty string to store the reversed string
         String reversed = "";
 
         // Use a for loop to iterate over the string from end to start
-        for (int i = input.length() - 1; i >= 0; i--) {
+        for (int i = str.length() - 1; i >= 0; i--) {
             // Append each character to the reversed string
-            reversed += input.charAt(i);
+            reversed += str.charAt(i);
         }
 
         // Print the reversed string
