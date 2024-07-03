@@ -11,7 +11,7 @@ public class ReverseNumber {
         // Use a while loop to reverse the digits
         while (number != 0) {
             int digit = number % 10;  // Get the last digit
-            reversed = reversed * 10 + digit;  // Append the digit to the reversed number
+            reversed = (reversed * 10 )+ digit;  // Append the digit to the reversed number
             number = number / 10;  // Remove the last digit from the number
         }
 
