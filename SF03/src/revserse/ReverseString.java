@@ -26,4 +26,21 @@ public class ReverseString {
 i < input.length() ensures the loop runs for each character in the input string.
 > reversed[i] = input.charAt(input.length() - 1 - i) assigns the character from the end of the input string to the beginning of the reversed array.
 > Convert and Print: The reversed char array is converted back to a string and printed.
+
+OTHER FORM METHOD TO EXECUTE
+
+import java.util.Scanner;
+
+public class revstring {
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        String s=in.nextLine();
+        char []c=s.toCharArray();
+        int n=c.length;
+        for(int i=n-1;i>=0;i--){
+            System.out.print(c[i]);
+        }
+    }
+    
+}
 */
